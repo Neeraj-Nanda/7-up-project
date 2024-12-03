@@ -1,0 +1,239 @@
+.header{
+    background-color: rgb(246 153 130);
+    color: white;
+    height: 118px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 945px 200px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    position: fixed;
+}
+.main-body{
+    
+    bottom: 0;
+}
+body{
+    margin: 0;
+    height: 1000px;
+    
+}
+.left-side{
+    width: 11%;
+    
+}
+.right-side{
+    width: 50%;
+}
+.sevenup-logo{
+    height: 75px;
+    width: 85px;
+    position: relative;
+    left: 27px;
+    top: 18px;
+    cursor: pointer;
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.menu{
+    color: white;
+    font-family: "Korolev";
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    position: relative;
+    left: -12px;
+}
+
+.products{
+    position: relative;
+    left: -44px;
+    top: 26px;
+}
+.recipes{
+    position: relative;
+    left: -14px;
+    top: 26px;
+}
+.stores{
+    position: relative;
+    left: 17px;
+    top: 26px;
+}
+.products:hover, .recipes:hover, .stores:hover{
+    text-decoration: underline;
+}
+.header-icon{
+    position: relative;
+    top: 46px;
+    left: 140px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.header-image{
+    width: 27px;
+}
+.body-image-pink{
+    width: 100%;
+}
+.pink-image{
+    height: 159px;
+    width: 398px;
+    position: relative;
+    bottom: 480px;
+    left: 146px;
+}
+.pink-recipes{
+    position: relative;
+    bottom: 464px;
+    left: 153px;
+    font-family: 'korolev';
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 29px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.body-image-yellow{
+    
+    width: 100%;
+    position: relative;
+    bottom: 211px;
+}
+.yellow-button{
+    height: 210px;
+    width: 689px;
+    position: relative;
+    bottom: 647px;
+    left: 417px;
+    border-radius: 131px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border: none;
+}
+.yellow-recipes{
+    position: relative;
+    bottom: 849px;
+    text-align: center;
+    color: white;
+    font-family: 'korolev';
+    
+}
+.yellow-bake{
+    position: relative;
+    bottom: 848px;
+    text-align: center;
+    color: white;
+    font-family: 'korolev';
+    font-size: 20px;
+}
+.yellow-button-recipes{
+    position: relative;
+    bottom: 845px;
+    left: 679px;
+    width: 162px;
+    height: 40px;
+    border-radius: 65px;
+    background: transparent;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    font-family: 'korolev';
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.full-green{
+    height: 138px;
+}
+.body-image-green{
+    width: 100%;
+    position: relative;
+    bottom: 591px;
+    margin-bottom: -446px;
+}
+.main-green{
+    position: relative;
+    bottom: 392px;
+}
+.green-button{
+    height: 210px;
+    width: 689px;
+    position: relative;
+    bottom: 197px;
+    left: 417px;
+    border-radius: 131px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border: none;
+}
+.green-recipes{
+    position: relative;
+    bottom: 407px;
+    text-align: center;
+    color: white;
+    font-family: 'korolev';
+}
+.green-bake{
+    position: relative;
+    bottom: 415px;
+    text-align: center;
+    color: white;
+    font-family: 'korolev';
+    font-size: 20px;
+}
+.green-product{
+    position: relative;
+    bottom: 408px;
+    left: 679px;
+    width: 162px;
+    height: 40px;
+    border-radius: 65px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    font-family: 'korolev';
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 2px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    
+}
+.footer{
+    height: 149px;
+    width: 100%;
+    background-color: #3e3e3e;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 1px;
+    color: white;
+    font-family: 'korolev';
+    font-size: 14px;
+}
+.footer-oneclass{
+    padding-left: 30px;
+}
+.footer-oneclass:hover{
+    text-decoration: underline;
+}
+#id-1{
+    margin-left: 291px;
+}
+.footer-end{
+    position: relative;
+    bottom: 112px;
+    left: 527px;
+    color: white;
+    font-size: 12px;
+    font-family: 'korolev';
+    width: 520px;
+}
